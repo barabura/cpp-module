@@ -1,25 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   megaphone.cpp                                      :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: baura <baura@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/04 12:28:41 by baura             #+#    #+#             */
-/*   Updated: 2022/09/04 12:35:34 by baura            ###   ########.fr       */
+/*   Created: 2022/09/04 11:13:23 by baura             #+#    #+#             */
+/*   Updated: 2022/09/04 11:49:14 by baura            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 
-int	main(int argc, char **argv)
-{
-	if (argc = 1)
-		std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *" << std::endl;
-	else
-	{
-		
-	}
+using namespace std; // forbidden in our project
 
+int	main()//int argc, char **argv)
+{
+	cout << "Hello, World!\n";
 	return (0);
 }
+
+// int	main()//int argc, char **argv)
+// {
+// 	std::cout << "Hello, World!\n";
+// 	return (0);
+// }
+
+// c++ -Wall -Wextra -Werror -std=c++98 main.cpp
+// ./a.out
+   
