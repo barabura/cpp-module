@@ -6,7 +6,7 @@
 #    By: baura <baura@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/09/03 15:48:59 by baura             #+#    #+#              #
-#    Updated: 2022/09/24 15:28:42 by baura            ###   ########.fr        #
+#    Updated: 2022/10/15 19:46:35 by baura            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,8 +16,7 @@ SRCS 	 = megaphone.cpp
 
 OBJS 	 = $(SRCS:%.c=%.o)
 
-FLAGS 	 = -Wall -Wextra  -std=c++98
-#-Werror
+FLAGS 	 = -Wall -Wextra -Werror -std=c++98
 CC 		 = c++
 RM 		 = rm -rf
 
